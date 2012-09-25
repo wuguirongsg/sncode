@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'monacoregular';
+    src: url('monaco-webfont.eot');
+    src: url('monaco-webfont.eot?#iefix') format('embedded-opentype'),
+         url('monaco-webfont.woff') format('woff'),
+         url('monaco-webfont.ttf') format('truetype'),
+         url('monaco-webfont.svg#monacoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	position: relative;
+	-webkit-transition: left .2s ease;
+}
+
+header{
+	margin-bottom:9px;
+	padding-bottom:0px;
+	padding-top:5px;
+}
+
+footer{
+	margin-top: 25px;
+	padding: 35px 0 36px;
+	border-top: 1px solid #666662;
+}
+
+section{
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+
+code{
+	color: #196591;
+	padding: 4px 4px;
+	border: 1px dashed #D11CB4;
+}
+
+#site-logo{
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .5), 0 0 30px rgba(255, 255, 255, .125);
+}
+
+.label-javascript{
+	background-color: #468847
+}
+.label-java{
+	background-color: #3A2480
+}
+
+#snbrand{
+	float: right;
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .1), 0 0 30px rgba(255, 255, 255, .125);
+}
+
+.commentcount{
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, .125);
+	font-weight: bold;
+	font-size: 20px;
+	color: #222;
+}
+
+.pd{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.pd  div.span2{
+	width:10.5%;
+}
+.pd  div.span10{
+	width:86.5%;
+}
+
+img.head{
+	width:36px;
+	height:36px;
+	border:1px solid #ccc;
+	padding:1px;
+	background:#fff;
+}
+
+.tweets li {
+	border-bottom: thin;
+	border-bottom-style: dashed;
+	border-bottom-color: #999;
+}
+
+.uinfo li div.span2{
+	width:10.5%;
+}
+.uinfo li div.span10{
+	width:86.5%;
+}
+
+/* 更多代码 */
+.moreCode {
+	font-size: 12px;
+	min-height: 60px;
+	padding-top: 10px;
+	margin-top: 5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.moreCode ul li{
+	margin-bottom: 0px;
+}
+
+.moreCode ul li p{
+	padding: 8px;
+	margin-right: 1px;
+	margin-bottom: 0px;
+	color: #eee;
+	background-color: #3F3F3F;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-top: 1px dashed #666;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0,0,0,0.00)), color-stop(1, rgba(0,0,0,0.10)));
+  	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.10) 100%);
+  	background-image: -moz-linear-gradient(top, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.10) 100%);
+  	background-image: -o-linear-gradient(top, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.10) 100%);
+  	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.10) 100%);
+  	background-image: linear-gradient(top, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.10) 100%);
+  	-webkit-box-shadow: inset 0px -1px 0px #262626;
+  	-moz-box-shadow: inset 0px -1px 0px #262626;
+  	box-shadow: inset 0px -1px 0px #262626;
+}
+
+.moreCode a {
+	color: #999;
+  	text-shadow: 0px -1px 0px #000;
+}
+
+.moreCode span a {
+	color: #eee;
+}
+
+
+/* 友情连接 */
+#SNlinks {
+	font-size: 14px;
+	line-height: 24px;
+	min-height: 60px;
+	background-color: #eee;
+	padding: 10px;
+	margin-top: 5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border:  1px dashed #888;
+}
+
+#SNlinks ul li {
+	display: inline-block;
+	float: left;
+	margin-top: 5px;
+}
+
+#SNlinks a{
+	color: #444;
+	padding-left: 5px;
+	padding-right: 10px;
+	text-decoration: underline;
+}
+
+/* 底部的LOGO */
+
+#footlogo {
+	height: 128px;
+	width: 128px;
+	float: left;
+	background: url("../img/logotext_128bian.png") no-repeat;
+	text-indent: -5000px;
+	margin: -20px 20px 0 0;
+}
+
