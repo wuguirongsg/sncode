@@ -38,6 +38,24 @@ code{
 	border: 1px dashed #D11CB4;
 }
 
+[class^="scicon-"],
+[class*=" scicon-"] {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  *margin-right: .3em;
+  line-height: 16px;
+  vertical-align: text-top;
+  background-image: url("../img/scicons.png");
+  background-position: 16px 16px;
+  background-repeat: no-repeat;
+}
+
+[class^="scicon-"]:last-child,
+[class*=" scicon-"]:last-child {
+  *margin-left: 0;
+}
+
 #site-logo{
 	text-shadow: 0 1px 0 rgba(255, 255, 255, .5), 0 0 30px rgba(255, 255, 255, .125);
 }

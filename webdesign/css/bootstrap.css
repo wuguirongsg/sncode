@@ -161,7 +161,7 @@ body {
   font-size: 13px;
   line-height: 18px;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #ffffff; /*
   background-image: -moz-linear-gradient(top, #D9DEC7, #ffffff);
   background-image: -ms-linear-gradient(top, #D9DEC7, #ffffff);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#D9DEC7), to(#ffffff));
@@ -169,7 +169,7 @@ body {
   background-image: -o-linear-gradient(top, #D9DEC7, #ffffff);
   background-image: linear-gradient(top, #D9DEC7, #ffffff);
   background-repeat: repeat-x;
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#D9DEC7', endColorstr='#ffffff', GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#D9DEC7', endColorstr='#ffffff', GradientType=0); */
 }
 
 a {
@@ -3598,7 +3598,7 @@ input[type="submit"].btn.btn-mini {
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#2C3135', endColorstr='#575D62', GradientType=0);
+ /* filter: progid:dximagetransform.microsoft.gradient(startColorstr='#2C3135', endColorstr='#575D62', GradientType=0); */
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
      -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
